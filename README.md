@@ -2,7 +2,8 @@
 # Language: R
 # Input: CSV (abundances)
 # Output: CSV (dissimilarities)
-# Tested with: PluMA 1.0, R 3.2.5
+# Tested with: PluMA 1.1, R 4.0.0
+# Dependency: vegan_2.5.6
 
 PluMA plugin that computes dissimlarity between community samples using the Mountford Dissimilarity Index (Mountford, 1962).
 The plugin accepts input in CSV format with rows representing samples and columns representing community members.
